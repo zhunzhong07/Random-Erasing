@@ -1,2 +1,1 @@
-# Random-Erasing
-Random Erasing
+# Random Erasing Data Augmentation
