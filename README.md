@@ -56,7 +56,9 @@ For WRN：
     ```
     --arch wrn --depth 28 --widen-factor 10
     ```
-    
+
+### Our results
+
 You can reproduce the results in our paper:
 
 | |  CIFAR10 | CIFAR10| CIFAR100 | CIFAR100| Fashion-MNIST | Fashion-MNIST|
