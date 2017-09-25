@@ -2,21 +2,19 @@
 ===============================================================
 ## This code has the source code for the paper "Random Erasing Data Augmentation".
 
-<<<<<<< HEAD
-Installation
+### Installation
 
-Requirements for Pytorch （see Pytorch installation instructions）
+Requirements for Pytorch （see [Pytorch](http://pytorch.org/) installation instructions）
 
-Examples:
-
-
+### Examples:
 
 ResNet-20 baseline on CIFAR10：
-python cifar.py --dataset cifar10 --arch resnet --depth 20
-
+    ```
+    python cifar.py --dataset cifar10 --arch resnet --depth 20
+    ```
 ResNet-20 + Random Erasing on CIFAR10：
-python cifar.py --dataset cifar10 --arch resnet --depth 20 --p 0.5
-
+```python cifar.py --dataset cifar10 --arch resnet --depth 20 --p 0.5
+```
 ResNet-20 baseline on CIFAR100：
 python cifar.py --dataset cifar100 --arch resnet --depth 20
 
