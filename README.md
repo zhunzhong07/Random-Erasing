@@ -45,10 +45,18 @@ ResNet-20 + Random Erasing on Fashion-MNIST：
     python fashionmnist.py --dataset fashionmnist --arch resnet --depth 20 --p 0.5
     ```
 
-For ResNet： --arch resnet --depth (20， 32， 44， 56， 110)
+### Other architectures
 
-For WRN： --arch wrn --depth 28 --widen-factor 10
+For ResNet： 
+    ```
+    --arch resnet --depth (20， 32， 44， 56， 110)
+    ```
 
+For WRN：
+    ```
+    --arch wrn --depth 28 --widen-factor 10
+    ```
+    
 You can reproduce the results in our paper:
 
 | |  CIFAR10 | CIFAR10| CIFAR100 | CIFAR100| Fashion-MNIST | Fashion-MNIST|
