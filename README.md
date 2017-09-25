@@ -2,6 +2,10 @@
 ===============================================================
 ## This code has the source code for the paper "Random Erasing Data Augmentation".
 
+| Original image<sup>[2]</sup>                                                                                               | Random Erasing                                                                                                                        |
+|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Original](https://raw.githubusercontent.com/mdbloice/AugmentorFiles/master/UsageGuide/city-road-street-italy-scaled.jpg) | ![Original](https://raw.githubusercontent.com/mdbloice/AugmentorFiles/master/UsageGuide/city-road-street-italy-animation.gif) |
+
 ### Installation
 
 Requirements for Pytorch （see [Pytorch](http://pytorch.org/) installation instructions）
