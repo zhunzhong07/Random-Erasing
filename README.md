@@ -44,8 +44,8 @@ For WRN： --arch wrn --depth 28 --widen-factor 10
 
 You can reproduce the results in our paper:
 
-|Models |  CIFAR10 | CIFAR10| CIFAR100 | CIFAR100| Fashion-MNIST | Fashion-MNIST|
-| --------   | -----  | ----  | -----  | ----  | -----  | ----  |
+| |  CIFAR10 | CIFAR10| CIFAR100 | CIFAR100| Fashion-MNIST | Fashion-MNIST|
+| -----   | -----  | ----  | -----  | ----  | -----  | ----  |
 |Models |  Base. | +RE | Base. | +RE | Base. | +RE |
 |ResNet-20 |  7.21 | 6.73 | 30.84 | 29.97 | 4.39 | 4.02 |
 |ResNet-32 |  6.41 | 5.66 | 28.50 | 27.18 | 4.16 | 3.80 |
