@@ -8,6 +8,8 @@ Requirements for Pytorch （see [Pytorch](http://pytorch.org/) installation inst
 
 ### Examples:
 
+#### CIFAR10
+
 ResNet-20 baseline on CIFAR10：
     ```
     python cifar.py --dataset cifar10 --arch resnet --depth 20
@@ -17,7 +19,9 @@ ResNet-20 + Random Erasing on CIFAR10：
     ```
     python cifar.py --dataset cifar10 --arch resnet --depth 20 --p 0.5
     ```
-    
+
+#### CIFAR100
+
 ResNet-20 baseline on CIFAR100：
     ```
     python cifar.py --dataset cifar100 --arch resnet --depth 20
@@ -27,7 +31,10 @@ ResNet-20 + Random Erasing on CIFAR100：
     ```
     python cifar.py --dataset cifar100 --arch resnet --depth 20 --p 0.5
     ```
-    
+
+#### Fashion-MNIST
+
+
 ResNet-20 baseline on Fashion-MNIST：
     ```
     python fashionmnist.py --dataset fashionmnist --arch resnet --depth 20
