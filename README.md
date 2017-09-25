@@ -2,4 +2,49 @@
 ===============================================================
 ## This code has the source code for the paper "Random Erasing Data Augmentation".
 
+<<<<<<< HEAD
+Installation
+
+Requirements for Pytorch （see Pytorch installation instructions）
+
+Examples:
+
+
+
+ResNet-20 baseline on CIFAR10：
+python cifar.py --dataset cifar10 --arch resnet --depth 20
+
+ResNet-20 + Random Erasing on CIFAR10：
+python cifar.py --dataset cifar10 --arch resnet --depth 20 --p 0.5
+
+ResNet-20 baseline on CIFAR100：
+python cifar.py --dataset cifar100 --arch resnet --depth 20
+
+ResNet-20 + Random Erasing on CIFAR100：
+python cifar.py --dataset cifar100 --arch resnet --depth 20 --p 0.5
+
+ResNet-20 baseline on Fashion-MNIST：
+python cifar.py --dataset fashionmnist --arch resnet --depth 20
+
+ResNet-20 + Random Erasing on Fashion-MNIST：
+python cifar.py --dataset fashionmnist --arch resnet --depth 20 --p 0.5
+
+
+For ResNet： --arch resnet --depth (20， 32， 44， 56， 110)
+For WRN： --arch wrn --depth 28 --widen-factor 10
+
+You can reproduce the results in our paper:
+
+|Models |  CIFAR10 | CIFAR10| CIFAR100 | CIFAR100| Fashion-MNIST | Fashion-MNIST|
+|Models |  Base. | +RE | Base. | +RE | Base. | +RE |
+|ResNet-20 |  7.21 | 6.73 | 30.84 | 29.97 | 4.39 | 4.02 |
+|ResNet-32 |  6.41 | 5.66 | 28.50 | 27.18 | 4.16 | 3.80 |
+|ResNet-44 |  5.53 | 5.13 | 25.27 | 24.29 | 4.41 | 4.01 |
+|ResNet-56 |  5.31 | 4.89| 24.82 | 23.69 | 4.39 | 4.13 |
+|ResNet-110 |  5.10 | 4.61 | 23.73 | 22.10 | 4.40 | 4.01 |
+|WRN-28-10 |  3.80 | 3.08 | 18.49 | 17.73 | 4.01 | 3.65 |
+
+
+=======
 Code coming soon.
+>>>>>>> c600e6e9717212bcae21774b11ab8664415d6d59
