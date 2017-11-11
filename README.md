@@ -9,6 +9,7 @@ Thanks for [Marcus D. Bloice](https://github.com/mdbloice), Marcus D. Bloice rep
 | ![Original](https://raw.githubusercontent.com/mdbloice/AugmentorFiles/master/UsageGuide/city-road-street-italy-scaled.jpg) | ![Original](https://raw.githubusercontent.com/mdbloice/AugmentorFiles/master/UsageGuide/city-road-street-italy-animation.gif) |
 
 ### Other re-implementations
+[Python Augmentor](http://augmentor.readthedocs.io/en/master/code.html#Augmentor.Pipeline.Pipeline.random_erasing)
 [Keras](https://github.com/yu4u/cutout-random-erasing)
 
 ### Installation
