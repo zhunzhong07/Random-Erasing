@@ -27,7 +27,7 @@ class RandomErasing(object):
             h = int(round(math.sqrt(target_area * aspect_ratio)))
             w = int(round(math.sqrt(target_area / aspect_ratio)))
 
-            if w <= img.size()[2] and h <= img.size()[1]:
+            if w < img.size()[2] and h < img.size()[1]:
                 x1 = random.randint(0, img.size()[1] - h)
                 y1 = random.randint(0, img.size()[2] - w)
                 if img.size()[0] == 3:
