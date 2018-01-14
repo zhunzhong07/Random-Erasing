@@ -14,6 +14,8 @@ Thanks for [Marcus D. Bloice](https://github.com/mdbloice), Marcus D. Bloice rep
 
 [\[Keras\]](https://github.com/yu4u/cutout-random-erasing)
 
+[\[Person_reID_baseline + Random Erasing + Re-ranking]\](https://github.com/layumi/Person_reID_baseline_pytorch)
+
 ### Installation
 
 Requirements for Pytorch （see [Pytorch](http://pytorch.org/) installation instructions）
