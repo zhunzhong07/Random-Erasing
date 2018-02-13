@@ -2,6 +2,15 @@
 ===============================================================
 ### This code has the source code for the paper "[Random Erasing Data Augmentation](https://arxiv.org/abs/1708.04896)".
 
+If you find this code useful in your research, please consider citing:
+
+    @article{zhong2017random,
+    title={Random Erasing Data Augmentation},
+    author={Zhong, Zhun and Zheng, Liang and Kang, Guoliang and Li, Shaozi and Yang, Yi},
+    journal={arXiv preprint arXiv:1708.04896},
+    year={2017}
+    }
+
 Thanks for [Marcus D. Bloice](https://github.com/mdbloice), Marcus D. Bloice reproduces our method in [Augmentor](http://augmentor.readthedocs.io/en/master/code.html#Augmentor.Pipeline.Pipeline.random_erasing). [Augmentor](http://augmentor.readthedocs.io/en/master/index.html) is an image augmentation library in Python for machine learning.
 
 | Original image                                                                                             | Random Erasing                                                                                                                        |
