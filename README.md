@@ -21,6 +21,8 @@ Thanks for [Marcus D. Bloice](https://github.com/mdbloice), Marcus D. Bloice rep
 
 [\[Python Augmentor\]](http://augmentor.readthedocs.io/en/master/code.html#Augmentor.Pipeline.Pipeline.random_erasing)
 
+[\[CamStyle\]](https://github.com/zhunzhong07/CamStyle)
+
 [\[Keras\]](https://github.com/yu4u/cutout-random-erasing)
 
 [\[Person_reID_baseline + Random Erasing + Re-ranking\]](https://github.com/layumi/Person_reID_baseline_pytorch)
