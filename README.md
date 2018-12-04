@@ -96,7 +96,7 @@ You can reproduce the results in our paper:
 |ResNet-110 |  5.10 | 4.61 | 23.73 | 22.10 | 4.40 | 4.01 |
 |WRN-28-10 |  3.80 | 3.08 | 18.49 | 17.73 | 4.01 | 3.65 |
 
-### NOTE THAT, if you use the latest released Fashion-MNIST, the performance will slightly lower than the results reported in our paper. Please refer to the [issue](https://github.com/zhunzhong07/Random-Erasing/issues/9).
+### NOTE THAT, if you use the latest released Fashion-MNIST, the performance of Baseline and RE will slightly lower than the results reported in our paper. Please refer to the [issue](https://github.com/zhunzhong07/Random-Erasing/issues/9).
 
 
 
