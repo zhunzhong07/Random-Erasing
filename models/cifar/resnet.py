@@ -96,7 +96,7 @@ class ResNet(nn.Module):
         super(ResNet, self).__init__()
         # Model type specifies number of layers for CIFAR-10 model
         assert (depth - 2) % 6 == 0, 'depth should be 6n+2'
-        n = (depth - 2) / 6
+        n = (depth - 2) // 6
 
         block = Bottleneck if depth >=44 else BasicBlock
 
