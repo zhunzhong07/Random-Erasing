@@ -1,5 +1,8 @@
 # Random Erasing Data Augmentation
 ===============================================================
+
+![Examples](all_examples-page-001.jpg)
+
 ### This code has the source code for the paper "[Random Erasing Data Augmentation](https://arxiv.org/abs/1708.04896)".
 
 If you find this code useful in your research, please consider citing:
@@ -16,6 +19,7 @@ Thanks for [Marcus D. Bloice](https://github.com/mdbloice), Marcus D. Bloice rep
 | Original image                                                                                             | Random Erasing                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Original](https://raw.githubusercontent.com/mdbloice/AugmentorFiles/master/UsageGuide/city-road-street-italy-scaled.jpg) | ![Original](https://raw.githubusercontent.com/mdbloice/AugmentorFiles/master/UsageGuide/city-road-street-italy-animation.gif) |
+
 
 ### Other re-implementations
 
