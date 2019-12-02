@@ -7,11 +7,11 @@
 
 If you find this code useful in your research, please consider citing:
 
-    @article{zhong2017random,
+    @inproceedings{zhong2020random,
     title={Random Erasing Data Augmentation},
     author={Zhong, Zhun and Zheng, Liang and Kang, Guoliang and Li, Shaozi and Yang, Yi},
-    journal={arXiv preprint arXiv:1708.04896},
-    year={2017}
+    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+    year={2020}
     }
 
 Thanks for [Marcus D. Bloice](https://github.com/mdbloice), Marcus D. Bloice reproduces our method in [Augmentor](http://augmentor.readthedocs.io/en/master/code.html#Augmentor.Pipeline.Pipeline.random_erasing). [Augmentor](http://augmentor.readthedocs.io/en/master/index.html) is an image augmentation library in Python for machine learning.
