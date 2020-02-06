@@ -3,6 +3,11 @@
 
 ![Examples](all_examples-page-001.jpg)
 
+| black  | white | random |
+|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|![i1](img/001-black.gif)|![i2](img/001-white.gif)| ![i3](img/001-random.gif)|
+|![i4](img/002-black.gif)|![i5](img/002-white.gif)| ![i6](img/002-random.gif)|
+
 ### This code has the source code for the paper "[Random Erasing Data Augmentation](https://arxiv.org/abs/1708.04896)".
 
 If you find this code useful in your research, please consider citing:
@@ -13,14 +18,6 @@ If you find this code useful in your research, please consider citing:
     booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
     year={2020}
     }
-
-Thanks for [Marcus D. Bloice](https://github.com/mdbloice), Marcus D. Bloice reproduces our method in [Augmentor](http://augmentor.readthedocs.io/en/master/code.html#Augmentor.Pipeline.Pipeline.random_erasing). [Augmentor](http://augmentor.readthedocs.io/en/master/index.html) is an image augmentation library in Python for machine learning.
-
-
-| black  | white | random |
-|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|![i1](img/001-black.gif)|![i2](img/001-white.gif)| ![i3](img/001-random.gif)|
-|![i4](img/002-black.gif)|![i5](img/002-white.gif)| ![i6](img/002-random.gif)|
 
 
 ### Other re-implementations
