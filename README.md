@@ -20,6 +20,13 @@ Thanks for [Marcus D. Bloice](https://github.com/mdbloice), Marcus D. Bloice rep
 |----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Original](https://raw.githubusercontent.com/mdbloice/AugmentorFiles/master/UsageGuide/city-road-street-italy-scaled.jpg) | ![Original](https://raw.githubusercontent.com/mdbloice/AugmentorFiles/master/UsageGuide/city-road-street-italy-animation.gif) |
 
+![i1](img/001-black.gif)
+![i2](img/001-white.gif)
+![i3](img/001-random.gif)
+![i4](img/002-black.gif)
+![i5](img/002-white.gif)
+![i6](img/002-random.gif)
+
 
 ### Other re-implementations
 
