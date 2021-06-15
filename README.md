@@ -22,7 +22,7 @@ If you find this code useful in your research, please consider citing:
 
 ### Other re-implementations
 
-[\[Official Torchvision in Transform\]](https://pytorch.org/docs/master/torchvision/transforms.html#torchvision.transforms.RandomErasing)
+[\[Official Torchvision in Transform\]](https://pytorch.org/vision/stable/transforms.html#torchvision.transforms.RandomErasing)
 
 [\[Pytorch: Random Erasing for ImageNet\]](https://github.com/rwightman/pytorch-image-models)
 
