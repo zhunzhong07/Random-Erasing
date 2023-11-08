@@ -106,6 +106,7 @@ class ResNet(nn.Module):
         self.bn1 = nn.BatchNorm2d(16)
         self.relu = nn.ReLU(inplace=True)
         self.layer1 = self._make_layer(block, 16, n)
+        self.maxpool1 = nn.MaxPool2d(kernel_size=2, stride=1, padding='SAME')
         self.layer2 = self._make_layer(block, 32, n, stride=2)
         self.layer3 = self._make_layer(block, 64, n, stride=2)
         self.avgpool = nn.AvgPool2d(7)
@@ -142,6 +143,8 @@ class ResNet(nn.Module):
         x = self.relu(x)    # 32x32
 
         x = self.layer1(x)  # 32x32
+        out = self.maxpool1(out)
+        
         x = self.layer2(x)  # 16x16
         x = self.layer3(x)  # 8x8
 
