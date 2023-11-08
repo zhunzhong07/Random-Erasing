@@ -112,8 +112,7 @@ def main():
         transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
         transforms.Normalize((0.1307,), (0.3081,)),
-        transforms.RandomErasing(probability = args.p, sh = args.sh, r1 = args.r1, mean = [0.4914]),
-    ])
+        transforms.RandomErasing(p=0.5, scale=(0.02, 0.33), ratio=(0.3, 3.3))])
     transform_test = transforms.Compose([
         transforms.ToTensor(),
         transforms.Normalize((0.1307,), (0.3081,)),
@@ -148,7 +147,9 @@ def main():
     print('    Total params: %.2fM' % (sum(p.numel() for p in model.parameters())/1000000.0))
 
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=args.momentum, weight_decay=args.weight_decay)
+    # optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=args.momentum, weight_decay=args.weight_decay)
+    base_optimizer = optim.SGD
+    optimizer = SAM(model.parameters(), base_optimizer, lr= args.lr,momentum=args.momentum, weight_decay=args.weight_decay)
 
     # Resume
     title = 'fashionmnist-' + args.arch
@@ -234,10 +235,12 @@ def train(trainloader, model, criterion, optimizer, epoch, use_cuda):
         top1.update(prec1.item(), inputs.size(0))
         top5.update(prec5.item(), inputs.size(0))
 
-        # compute gradient and do SGD step
-        optimizer.zero_grad()
         loss.backward()
-        optimizer.step()
+        optimizer.first_step(zero_grad=True)
+
+        #second backward pass
+        criterion(model(inputs), targets).backward()
+        optimizer.second_step(zero_grad=True)
 
         # measure elapsed time
         batch_time.update(time.time() - end)
