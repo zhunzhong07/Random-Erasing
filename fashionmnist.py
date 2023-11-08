@@ -19,6 +19,7 @@ import torchvision.datasets as datasets
 import models.fashion as models
 import transforms
 import numpy as np
+from sam import SAM
 
 from utils import Bar, Logger, AverageMeter, accuracy, mkdir_p, savefig
 
